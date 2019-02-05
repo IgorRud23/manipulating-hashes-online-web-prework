@@ -20,7 +20,5 @@ contacts.each do |name, array|
 end
 end
 end
-end
-end
   contacts
 end
