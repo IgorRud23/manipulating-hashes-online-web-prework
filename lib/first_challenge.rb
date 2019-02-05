@@ -15,7 +15,7 @@ def first_challenge
   ice = :favorite_icecream_flavors
 contacts.each do |name, array|
   array.each do |podcast, info|
-    if info == ice
+    if podcast == ice
       ice.delete_at(0)
 end
 end
