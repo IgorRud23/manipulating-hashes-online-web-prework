@@ -14,7 +14,7 @@ def first_challenge
   }
 contacts.each do |person, data|
   data.each do |attribute, value|
-  if info.class == Array && value.include?("strawberry")
+  if value.class == Array && value.include?("strawberry")
     value.delete_if {|flavor| flavor == "strawberry"}
 end
 end
