@@ -16,7 +16,7 @@ contacts.each do |name, array|
   array.each do |podcast, info|
   if podcast = :favorite_icecream_flavors
     info.each do |ice|
-      ice.delete_at(0)
+      ice.delete("strawberry")
 end
 end
 end
