@@ -18,5 +18,6 @@ contacts.each do |name, array|
       favorite_icecream_flavors:.delete_at(0)
 end
 end
+end
   contacts
 end
