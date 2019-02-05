@@ -19,5 +19,6 @@ contacts.each do |name, start|
 end
 end
 end
+
   contacts
 end
