@@ -12,10 +12,11 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
+  ice = favorite_icecream_flavors: 
 contacts.each do |name, array|
   array.each do |podcast, info|
-    if info == favorite_icecream_flavors:
-      favorite_icecream_flavors:.delete_at(0)
+    if info == ice
+      ice.delete_at(0)
 end
 end
 end
