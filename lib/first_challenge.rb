@@ -12,8 +12,8 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-contacts.each do |name, start|
-  start.each do |podcast, info|
+contacts.each do |person, data|
+  data.each do |attribute, value|
   if info.class == Array && value.include?("strawberry")
     value.delete_if {|flavor| flavor == "strawberry"}
 end
