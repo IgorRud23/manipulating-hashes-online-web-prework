@@ -19,5 +19,6 @@ contacts.each do |name, array|
       ice.delete_at(0)
 end
 end
+end
   contacts
 end
